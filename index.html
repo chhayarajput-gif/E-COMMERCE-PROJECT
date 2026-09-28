@@ -1,0 +1,1434 @@
+
+
+<!-- This is made by CHATGPT(With UI) -->
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+        content="CRIMSON — Premium technology and lifestyle products. Discover the latest products at CRIMSON.">
+
+    <meta name="keywords"
+        content="CRIMSON, ecommerce, technology, gadgets, electronics, online shopping">
+
+    <meta name="author" content="CRIMSON">
+
+    <title>CRIMSON — Premium Ecommerce</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="S.css">
+</head>
+
+<body>
+
+    <!-- ==================================================
+         PAGE LOADER
+    =================================================== -->
+
+    <div class="page-loader" id="pageLoader">
+        <div class="loader-logo">CRIMSON</div>
+        <div class="loader-line"></div>
+    </div>
+
+
+    <!-- ==================================================
+         HEADER / NAVBAR
+    =================================================== -->
+
+    <header class="header" id="header">
+
+        <div class="container nav-container"> 
+
+            <!-- Logo -->
+                <a href="index.html" class="logo">
+                    <img src="C LOGO.png" alt="CRIMSON">
+                </a>
+
+            <!-- Desktop Navigation -->
+            <nav class="main-nav" aria-label="Main Navigation">
+
+                <a href="#home" class="nav-link active">
+                    Home
+                </a>
+
+                <a href="#shop" class="nav-link">
+                    Shop
+                </a>
+
+                <a href="#categories" class="nav-link">
+                    Categories
+                </a>
+
+                <a href="#deals" class="nav-link">
+                    Deals
+                </a>
+
+                <a href="#about" class="nav-link">
+                    About
+                </a>
+
+                <a href="#contact" class="nav-link">
+                    Contact
+                </a>
+
+            </nav>
+
+
+            <!-- Header Actions -->
+            <div class="header-actions">
+
+                <!-- Search -->
+                <button class="icon-btn search-btn"
+                    id="searchBtn"
+                    aria-label="Search">
+                    🔍
+                </button>
+
+                <!-- Account -->
+                <button class="icon-btn account-btn"
+                    id="accountBtn"
+                    aria-label="Account">
+                    👤
+                </button>
+
+                <!-- Wishlist -->
+                <button class="icon-btn wishlist-btn"
+                    id="wishlistBtn"
+                    aria-label="Wishlist">
+
+                    ♡
+
+                    <span class="badge" id="wishlistCount">
+                        0
+                    </span>
+
+                </button>
+
+                <!-- Cart -->
+                <button class="icon-btn cart-btn"
+                    id="cartBtn"
+                    aria-label="Shopping Cart">
+
+                    🛒
+
+                    <span class="badge" id="cartCount">
+                        0
+                    </span>
+
+                </button>
+
+                <!-- Mobile Menu -->
+                <button class="menu-btn"
+                    id="menuBtn"
+                    aria-label="Open Menu">
+
+                    <span></span>
+                    <span></span>
+                    <span></span>
+
+                </button>
+
+            </div>
+
+        </div>
+
+    </header>
+
+
+    <!-- ==================================================
+         SEARCH OVERLAY
+    =================================================== -->
+
+    <div class="search-overlay" id="searchOverlay">
+
+        <div class="search-box">
+
+            <button class="close-btn"
+                id="closeSearch">
+                ×
+            </button>
+
+            <h2>Search CRIMSON</h2>
+
+            <form id="searchForm">
+
+                <input
+                    type="search"
+                    id="searchInput"
+                    placeholder="Search products..."
+                    autocomplete="off">
+
+                <button type="submit">
+                    Search
+                </button>
+
+            </form>
+
+            <div class="search-suggestions"
+                id="searchSuggestions">
+
+                <span>Gaming</span>
+                <span>Laptops</span>
+                <span>Headphones</span>
+                <span>Keyboards</span>
+                <span>Monitors</span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         MOBILE MENU
+    =================================================== -->
+
+    <aside class="mobile-menu" id="mobileMenu">
+
+        <button class="close-menu"
+            id="closeMenu">
+            ×
+        </button>
+
+        <nav>
+
+            <a href="#home">Home</a>
+            <a href="#shop">Shop</a>
+            <a href="#categories">Categories</a>
+            <a href="#deals">Deals</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+
+        </nav>
+
+    </aside>
+
+
+    <main>
+
+        <!-- ==================================================
+             HERO SECTION
+        =================================================== -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background"></div>
+
+            <div class="container hero-container">
+
+                <div class="hero-content">
+
+                    <span class="hero-tag">
+                        ✦ THE FUTURE OF SHOPPING
+                    </span>
+
+                    <h1>
+                        Upgrade Your
+                        <span>Digital Life.</span>
+                    </h1>
+
+                    <p>
+                        Discover premium technology, powerful gadgets,
+                        gaming gear and everyday essentials — all in one place.
+                    </p>
+
+                    <div class="hero-buttons">
+
+                        <a href="#shop"
+                            class="btn btn-primary">
+                            Shop Now
+                            <span>→</span>
+                        </a>
+
+                        <a href="#categories"
+                            class="btn btn-outline">
+                            Explore Categories
+                        </a>
+
+                    </div>
+
+                    <div class="hero-stats">
+
+                        <div class="stat">
+                            <strong>500+</strong>
+                            <span>Products</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>50K+</strong>
+                            <span>Customers</span>
+                        </div>
+
+                        <div class="stat">
+                            <strong>4.9★</strong>
+                            <span>Rating</span>
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- Hero Product -->
+                <div class="hero-product">
+
+                    <div class="hero-glow"></div>
+
+                    <div class="hero-product-card">
+
+                        <span class="hero-product-label">
+                            NEW ARRIVAL
+                        </span>
+
+                        <div class="hero-product-image">
+                            <div class="product-placeholder">
+                                🎧
+                            </div>
+                        </div>
+
+                        <div class="hero-product-info">
+
+                            <h3>
+                                CRIMSON X1
+                            </h3>
+
+                            <p>
+                                Wireless Gaming Headset
+                            </p>
+
+                            <strong>
+                                ₹4,999
+                            </strong>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+            <!-- Scroll Indicator -->
+            <div class="scroll-indicator">
+
+                <span>Scroll</span>
+
+                <div class="scroll-line"></div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             CATEGORIES
+        =================================================== -->
+
+        <section class="categories section"
+            id="categories">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            EXPLORE
+                        </span>
+
+                        <h2>
+                            Shop by Category
+                        </h2>
+
+                    </div>
+
+                    <a href="#shop"
+                        class="view-all">
+                        View All →
+                    </a>
+
+                </div>
+
+
+                <div class="category-grid">
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            💻
+                        </div>
+
+                        <h3>Laptops</h3>
+
+                        <span>48 Products</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            🎧
+                        </div>
+
+                        <h3>Audio</h3>
+
+                        <span>72 Products</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            ⌨️
+                        </div>
+
+                        <h3>Gaming</h3>
+
+                        <span>95 Products</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            🖥️
+                        </div>
+
+                        <h3>Monitors</h3>
+
+                        <span>36 Products</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            🖱️
+                        </div>
+
+                        <h3>Accessories</h3>
+
+                        <span>120 Products</span>
+
+                    </a>
+
+
+                    <a href="#" class="category-card">
+
+                        <div class="category-icon">
+                            📱
+                        </div>
+
+                        <h3>Smart Devices</h3>
+
+                        <span>64 Products</span>
+
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             FEATURED PRODUCTS
+        =================================================== -->
+
+        <section class="products section"
+            id="shop">
+
+            <div class="container">
+
+                <div class="section-header">
+
+                    <div>
+
+                        <span class="section-label">
+                            TRENDING NOW
+                        </span>
+
+                        <h2>
+                            Featured Products
+                        </h2>
+
+                    </div>
+
+                    <a href="#"
+                        class="view-all">
+                        Shop All →
+                    </a>
+
+                </div>
+
+
+                <!-- Product Filters -->
+                <div class="product-filters">
+
+                    <button class="filter-btn active"
+                        data-filter="all">
+                        All
+                    </button>
+
+                    <button class="filter-btn"
+                        data-filter="gaming">
+                        Gaming
+                    </button>
+
+                    <button class="filter-btn"
+                        data-filter="audio">
+                        Audio
+                    </button>
+
+                    <button class="filter-btn"
+                        data-filter="laptop">
+                        Laptops
+                    </button>
+
+                    <button class="filter-btn"
+                        data-filter="accessories">
+                        Accessories
+                    </button>
+
+                </div>
+
+
+                <div class="product-grid"
+                    id="productGrid">
+
+
+                    <!-- Product 1 -->
+                    <article class="product-card"
+                        data-category="gaming">
+
+                        <div class="product-image">
+
+                            <span class="product-badge">
+                                NEW
+                            </span>
+
+                            <button class="wishlist-product"
+                                aria-label="Add to Wishlist">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                🎧
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                GAMING
+                            </span>
+
+                            <h3>
+                                RGB Gaming Headset
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(128)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹2,499</strong>
+                                    <del>₹3,499</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="RGB Gaming Headset"
+                                    data-price="2499">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 2 -->
+                    <article class="product-card"
+                        data-category="gaming">
+
+                        <div class="product-image">
+
+                            <span class="product-badge sale">
+                                -20%
+                            </span>
+
+                            <button class="wishlist-product">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                ⌨️
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                GAMING
+                            </span>
+
+                            <h3>
+                                Mechanical RGB Keyboard
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(96)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹1,999</strong>
+                                    <del>₹2,499</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="Mechanical RGB Keyboard"
+                                    data-price="1999">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 3 -->
+                    <article class="product-card"
+                        data-category="audio">
+
+                        <div class="product-image">
+
+                            <span class="product-badge">
+                                NEW
+                            </span>
+
+                            <button class="wishlist-product">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                🎵
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                AUDIO
+                            </span>
+
+                            <h3>
+                                Wireless Earbuds Pro
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(214)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹2,799</strong>
+                                    <del>₹3,299</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="Wireless Earbuds Pro"
+                                    data-price="2799">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 4 -->
+                    <article class="product-card"
+                        data-category="accessories">
+
+                        <div class="product-image">
+
+                            <span class="product-badge sale">
+                                -15%
+                            </span>
+
+                            <button class="wishlist-product">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                🖱️
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ACCESSORIES
+                            </span>
+
+                            <h3>
+                                RGB Gaming Mouse
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★☆
+                                <span>(82)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹999</strong>
+                                    <del>₹1,199</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="RGB Gaming Mouse"
+                                    data-price="999">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 5 -->
+                    <article class="product-card"
+                        data-category="laptop">
+
+                        <div class="product-image">
+
+                            <span class="product-badge">
+                                HOT
+                            </span>
+
+                            <button class="wishlist-product">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                💻
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                LAPTOP
+                            </span>
+
+                            <h3>
+                                Pro Gaming Laptop
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(67)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹74,999</strong>
+                                    <del>₹82,999</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="Pro Gaming Laptop"
+                                    data-price="74999">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+
+                    <!-- Product 6 -->
+                    <article class="product-card"
+                        data-category="accessories">
+
+                        <div class="product-image">
+
+                            <span class="product-badge sale">
+                                -10%
+                            </span>
+
+                            <button class="wishlist-product">
+                                ♡
+                            </button>
+
+                            <div class="product-visual">
+                                🖥️
+                            </div>
+
+                            <button class="quick-view">
+                                Quick View
+                            </button>
+
+                        </div>
+
+                        <div class="product-info">
+
+                            <span class="product-category">
+                                ACCESSORIES
+                            </span>
+
+                            <h3>
+                                24" Gaming Monitor
+                            </h3>
+
+                            <div class="rating">
+                                ★★★★★
+                                <span>(154)</span>
+                            </div>
+
+                            <div class="product-bottom">
+
+                                <div class="price">
+                                    <strong>₹12,999</strong>
+                                    <del>₹14,499</del>
+                                </div>
+
+                                <button class="add-cart"
+                                    data-product="24 Gaming Monitor"
+                                    data-price="12999">
+                                    +
+                                </button>
+
+                            </div>
+
+                        </div>
+
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             DEAL SECTION
+        =================================================== -->
+
+        <section class="deal-section"
+            id="deals">
+
+            <div class="container deal-container">
+
+                <div class="deal-content">
+
+                    <span class="section-label">
+                        LIMITED TIME
+                    </span>
+
+                    <h2>
+                        CRIMSON
+                        <span>FLASH SALE</span>
+                    </h2>
+
+                    <p>
+                        Grab selected products before the deal ends.
+                    </p>
+
+
+                    <!-- Countdown -->
+                    <div class="countdown"
+                        id="countdown">
+
+                        <div>
+                            <strong id="days">00</strong>
+                            <span>Days</span>
+                        </div>
+
+                        <div>
+                            <strong id="hours">00</strong>
+                            <span>Hours</span>
+                        </div>
+
+                        <div>
+                            <strong id="minutes">00</strong>
+                            <span>Minutes</span>
+                        </div>
+
+                        <div>
+                            <strong id="seconds">00</strong>
+                            <span>Seconds</span>
+                        </div>
+
+                    </div>
+
+
+                    <a href="#shop"
+                        class="btn btn-primary">
+                        Shop Deals →
+                    </a>
+
+                </div>
+
+                <div class="deal-visual">
+
+                    <div class="deal-circle"></div>
+
+                    <div class="deal-product">
+                        🎮
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             WHY CRIMSON
+        =================================================== -->
+
+        <section class="features section">
+
+            <div class="container">
+
+                <div class="section-header centered">
+
+                    <span class="section-label">
+                        WHY CRIMSON
+                    </span>
+
+                    <h2>
+                        Shopping Made Better
+                    </h2>
+
+                    <p>
+                        Everything you need for a smooth shopping experience.
+                    </p>
+
+                </div>
+
+
+                <div class="features-grid">
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            🚚
+                        </div>
+
+                        <h3>
+                            Fast Delivery
+                        </h3>
+
+                        <p>
+                            Quick and reliable delivery to your doorstep.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            🔒
+                        </div>
+
+                        <h3>
+                            Secure Payment
+                        </h3>
+
+                        <p>
+                            Your payments and information stay protected.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            ↩️
+                        </div>
+
+                        <h3>
+                            Easy Returns
+                        </h3>
+
+                        <p>
+                            Simple returns and hassle-free support.
+                        </p>
+
+                    </div>
+
+
+                    <div class="feature-card">
+
+                        <div class="feature-icon">
+                            💬
+                        </div>
+
+                        <h3>
+                            24/7 Support
+                        </h3>
+
+                        <p>
+                            We're here whenever you need help.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             ABOUT
+        =================================================== -->
+
+        <section class="about section"
+            id="about">
+
+            <div class="container about-container">
+
+                <div class="about-visual">
+
+                    <div class="about-logo">
+                        C
+                    </div>
+
+                </div>
+
+
+                <div class="about-content">
+
+                    <span class="section-label">
+                        ABOUT CRIMSON
+                    </span>
+
+                    <h2>
+                        Technology.
+                        <span>Style.</span>
+                        Innovation.
+                    </h2>
+
+                    <p>
+                        CRIMSON is built to bring premium technology
+                        and modern products together in one powerful
+                        shopping experience.
+                    </p>
+
+                    <p>
+                        From gaming gear and electronics to everyday
+                        digital essentials, we're creating a store
+                        designed around simplicity, quality and innovation.
+                    </p>
+
+                    <a href="#contact"
+                        class="btn btn-outline">
+                        Learn More →
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ==================================================
+             NEWSLETTER
+        =================================================== -->
+
+        <section class="newsletter">
+
+            <div class="container newsletter-container">
+
+                <div>
+
+                    <span class="section-label">
+                        STAY UPDATED
+                    </span>
+
+                    <h2>
+                        Get the latest from CRIMSON.
+                    </h2>
+
+                    <p>
+                        New products, exclusive deals and updates.
+                    </p>
+
+                </div>
+
+
+                <form class="newsletter-form"
+                    id="newsletterForm">
+
+                    <input
+                        type="email"
+                        id="newsletterEmail"
+                        placeholder="Enter your email"
+                        required>
+
+                    <button type="submit">
+                        Subscribe →
+                    </button>
+
+                </form>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ==================================================
+         CART DRAWER
+    =================================================== -->
+
+    <aside class="cart-drawer"
+        id="cartDrawer">
+
+        <div class="cart-header">
+
+            <h2>
+                Your Cart
+            </h2>
+
+            <button id="closeCart">
+                ×
+            </button>
+
+        </div>
+
+
+        <div class="cart-items"
+            id="cartItems">
+
+            <div class="empty-cart">
+
+                <div>
+                    🛒
+                </div>
+
+                <h3>
+                    Your cart is empty
+                </h3>
+
+                <p>
+                    Add products to get started.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="cart-footer">
+
+            <div class="cart-total">
+
+                <span>
+                    Total
+                </span>
+
+                <strong id="cartTotal">
+                    ₹0
+                </strong>
+
+            </div>
+
+            <button class="btn btn-primary checkout-btn">
+                Checkout →
+            </button>
+
+        </div>
+
+    </aside>
+
+
+    <!-- Cart Overlay -->
+    <div class="drawer-overlay"
+        id="drawerOverlay">
+    </div>
+
+
+    <!-- ==================================================
+         QUICK VIEW MODAL
+    =================================================== -->
+
+    <div class="modal"
+        id="quickViewModal">
+
+        <div class="modal-content">
+
+            <button class="modal-close"
+                id="closeQuickView">
+                ×
+            </button>
+
+            <div class="quick-view-content">
+
+                <div class="quick-view-image">
+                    🎧
+                </div>
+
+                <div class="quick-view-info">
+
+                    <span>
+                        GAMING
+                    </span>
+
+                    <h2 id="quickViewTitle">
+                        Product Name
+                    </h2>
+
+                    <div class="rating">
+                        ★★★★★
+                    </div>
+
+                    <p>
+                        Premium product designed for performance,
+                        comfort and everyday use.
+                    </p>
+
+                    <strong id="quickViewPrice">
+                        ₹0
+                    </strong>
+
+                    <button class="btn btn-primary">
+                        Add to Cart
+                    </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <!-- ==================================================
+         FOOTER
+    =================================================== -->
+
+    <footer class="footer"
+        id="contact">
+
+        <div class="container footer-grid">
+
+            <!-- Brand -->
+            <div class="footer-brand">
+
+                <a href="#" class="logo">
+
+                    <span class="logo-mark">
+                        C
+                    </span>
+
+                    <span class="logo-text">
+                        CRIMSON
+                    </span>
+
+                </a>
+
+                <p>
+                    Premium products.
+                    Modern experience.
+                    Built for the future.
+                </p>
+
+                <div class="social-links">
+
+                    <a href="#" aria-label="Instagram">
+                        Instagram
+                    </a>
+
+                    <a href="#" aria-label="Facebook">
+                        Facebook
+                    </a>
+
+                    <a href="#" aria-label="X">
+                        X
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- Shop -->
+            <div class="footer-column">
+
+                <h3>
+                    Shop
+                </h3>
+
+                <a href="#shop">All Products</a>
+                <a href="#categories">Categories</a>
+                <a href="#deals">Deals</a>
+                <a href="#">New Arrivals</a>
+
+            </div>
+
+
+            <!-- Support -->
+            <div class="footer-column">
+
+                <h3>
+                    Support
+                </h3>
+
+                <a href="#">Contact Us</a>
+                <a href="#">Shipping</a>
+                <a href="#">Returns</a>
+                <a href="#">FAQs</a>
+
+            </div>
+
+
+            <!-- Company -->
+            <div class="footer-column">
+
+                <h3>
+                    Company
+                </h3>
+
+                <a href="#about">About Us</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms & Conditions</a>
+                <a href="#">Careers</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <div class="container">
+
+                <p>
+                    © <span id="currentYear"></span>
+                    CRIMSON. All rights reserved.
+                </p>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+    <!-- ==================================================
+         TOAST NOTIFICATION
+    =================================================== -->
+
+    <div class="toast"
+        id="toast">
+
+        <span id="toastIcon">
+            ✓
+        </span>
+
+        <span id="toastMessage">
+            Product added to cart
+        </span>
+
+    </div>
+
+
+    <!-- ==================================================
+         BACK TO TOP
+    =================================================== -->
+
+    <button class="back-to-top"
+        id="backToTop"
+        aria-label="Back to top">
+
+        ↑
+
+    </button>
+
+
+    <!-- ==================================================
+         JAVASCRIPT
+    =================================================== -->
+
+    <script src="script.js"></script>
+
+</body>
+</html>
